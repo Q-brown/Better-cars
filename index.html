@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CArs</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body class="body">
+    <div id="lsit">
+        <div>
+            <ul>
+                <h1>Q-brown Cars</h1>
+                <h2>Drive the latest</h2>
+            </ul>
+        </div>
+        <figure>
+            <img src="images/toyota-ft-1-concept_100476674_m.jpg" alt="">
+        </figure>
+    </div>
+
+
+    <div id="cars">
+        <nav>
+            <ul>
+                <li><a href="cars.html">CARS</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menubtn">
+        <img src="./images/menu.png" alt="" id="menu">
+    </div>
+    <script>
+        var cars = document.getElementById("cars")
+        var menubtn = document.getElementById("menubtn")
+        var menu = document.getElementById("menu")
+        cars.style.right = "-250px";
+
+        menubtn.onclick = function () {
+            if (cars.style.right == "-250px") {
+                cars.style.right = "0";
+                // The picture of close button nav
+                menu.scr = "./images/close.png";
+
+            }
+            else {
+                cars.style.right = "-250px";
+                menu.src = "./images/menu.png";
+            }
+        }
+    </script>
+    <div id="kenzy">
+        <div>
+            <h3>Camry</h3>
+            <img src="images/CAM1.jpg" alt="">
+            <p><button class="sale">buy now</button></p>
+        </div>
+        <div>
+            <h3>Lambrogini</h3>
+            <img src="images/lambo.jpg" alt="">
+            <p><button class="sale">buy now</button></p>
+        </div>
+        <div>
+            <h3>Sport-Cars</h3>
+            <img src="images/sports cars2.jpg" alt="">
+            <p><button class="sale">buy now</button></p>
+        </div>
+        <div>
+            <h3>Cross over</h3>
+            <img src="images/suv3.jpg" alt="">
+            <p><button class="sale">buy now</button></p>
+        </div>
+        <div>
+            <h3>Toyota</h3>
+            <img src="images/toyota4.jpg" alt="">
+            <p><button class="sale">buy now</button></p>
+        </div>
+        <div>
+            <h4>Brown Cars.
+                Drive With Pride ****
+                </h3>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
