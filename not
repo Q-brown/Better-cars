@@ -1,0 +1,49 @@
+ <div class="queen">
+
+
+                <nav>
+                    <div class="camdetails">
+                        <div class="two">
+
+                            <ul>
+                                <h4>Details about Camry Cars</h4>
+                                <li>The new front wheel-drive camry comes with a 2.5-litter four cylinder or 3.5 litter
+                                    V-6 engines or
+                                    as a gas - eletroic hybrid that pairs a four - cylinder gas engine </li>
+
+                            </ul>
+                        </div>
+                        <div class="two">
+                            <h4>What makes camry cars special</h4>
+                            <li>The latest toyota camry now an all- hybrid lineup and it makes it perfect sense for this
+                                moment .
+                                Besides it great MPG, the camry has <span>a roomy and comfortable cabins many helpful
+                                    technology
+                                    fectures ,</span>And just great pick for a midsize sedan</li>
+                        </div>
+
+                </nav>
+            </div>
+        </div>
+        <div class="butm">
+            <p><button class="deta">...</button></p>
+        </div>
+        <script charset="2ndscript">
+            var queen = document.getElementsByClassName("queen")
+            var butm = document.getElementsByClassName("butm")
+            var deta =document.getElementsByClassName ("deta")
+            queen.style.right = "-250px";
+
+            butm.onclick = function () {
+                if (queen.style.right == "-250px") {
+                    queen.style.right = "0";
+butm.scr = "p/deta/..."
+                }
+                else{
+queen.style.right = "-250px";
+butm.scr ="p/deta/..."
+                }
+
+            }
+        </script>
+       
